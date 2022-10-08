@@ -1,3 +1,5 @@
+// Jate inline icone made withe text, not image
+
 const header = `
 /*
        _____  ____________

@@ -9,6 +9,9 @@ main.innerHTML = '';
 const loadSpinner = () => {
   const spinner = document.createElement('div');
   spinner.classList.add('spinner');
+
+  //this part links to the index.html file in public folder
+  
   spinner.innerHTML = `
   <div class="loading-container">
   <div class="loading-spinner" />
@@ -19,9 +22,12 @@ const loadSpinner = () => {
 
 const editor = new Editor();
 
+//load spinner if when editer is equal to undefined
+
 if (typeof editor === 'undefined') {
   loadSpinner();
 }
+
 
 // Check if service workers are supported
 if ('serviceWorker' in navigator) {
