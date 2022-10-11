@@ -162,3 +162,85 @@ h1 {
   background-color: #cccccc;
 }
 
+.btn.btn-dark:hover {
+  background-color: #5f5f5f;
+}
+
+
+.btn.btn-black {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+
+.btn.btn-danger {
+  background-color: #e64c66;
+  color: #ffffff;
+}
+
+.btn.btn-primary {
+  background-color: #2d3e50;
+  color: #d9e9e8;
+}
+
+.btn.btn-black:hover {
+  background-color: #666666;
+}
+
+.btn.btn-link {
+  background-color: #1b89bc;
+  color: #ffffff;
+}
+
+.btn.btn-link:hover {
+  background-color: #31a9e1;
+}
+
+.btn.btn-danger:hover {
+  background-color: #ee8294;
+}
+
+.btn.btn-info {
+  background-color: #1bbc9b;
+  color: #ffffff;
+}
+
+/* Media */
+
+@media all and (display-mode: standalone) {
+  #buttonInstall {
+    display: none;
+  }
+}
+
+
+@media only screen and (max-width: 600px) {
+  .nav-btn {
+    display: none;
+  }
+
+  #navbar {
+    justify-content: center;
+  }
+
+  .navbar-brand {
+    display: none;
+  }
+
+
+  h1 {
+    font-size: 18px;
+  }
+}
+
+/* Keyframes */
+
+@keyframes rotate-forever {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
